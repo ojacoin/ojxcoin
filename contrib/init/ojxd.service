@@ -1,0 +1,26 @@
+[Unit]
+Description=ojx's distributed currency daemon
+After=network.target
+
+[Service]
+User=ojx
+Group=ojx
+
+Type=forking
+PIDFile=/var/lib/ojxd/ojxd.pid
+
+ExecStart=/usr/bin/ojxd -daemon -pid=/var/lib/ojxd/ojxd.pid \
+          -conf=/etc/ojx/ojx.conf -datadir=/var/lib/ojxd
+
+ExecStop=-/usr/bin/ojx-cli -conf=/etc/ojx/ojx.conf \
+         -datadir=/var/lib/ojxd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
