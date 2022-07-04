@@ -134,9 +134,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x545500d623963fb074720b0d34e54ebb3f0fcc7b7077838db2e30e23ac78a780"));
 	
        	// New Seed Nodes added 
-        vSeeds.push_back(CDNSSeedData("15.188.254.160","15.188.254.160"));  // Seed node 1		
-	vSeeds.push_back(CDNSSeedData("13.38.193.116","13.38.193.116"));  // Seed node 2
-	vSeeds.push_back(CDNSSeedData("35.176.72.67","35.176.72.67"));  // Seed node 3
+        vSeeds.push_back(CDNSSeedData("69.197.131.10","69.197.131.10")); // Seed node 1
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 115);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 116);
