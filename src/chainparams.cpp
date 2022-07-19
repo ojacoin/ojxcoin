@@ -137,6 +137,52 @@ public:
         vSeeds.push_back(CDNSSeedData("15.188.254.160","15.188.254.160"));  // Seed node 1		
 	vSeeds.push_back(CDNSSeedData("13.38.193.116","13.38.193.116"));  // Seed node 2
 	vSeeds.push_back(CDNSSeedData("35.176.72.67","35.176.72.67"));  // Seed node 3
+	
+		//public Nodes 18/07/2022
+		vSeeds.push_back(CDNSSeedData("69.197.131.10","69.197.131.10"));
+        vSeeds.push_back(CDNSSeedData("87.117.38.192","87.117.38.192"));
+        vSeeds.push_back(CDNSSeedData("220.76.21.29","220.76.21.29"));
+        vSeeds.push_back(CDNSSeedData("180.126.235.178","180.126.235.178"));
+        vSeeds.push_back(CDNSSeedData("101.117.36.227","101.117.36.227"));
+        vSeeds.push_back(CDNSSeedData("193.164.16.241","193.164.16.241"));
+        vSeeds.push_back(CDNSSeedData("89.151.186.219","89.151.186.219"));
+        vSeeds.push_back(CDNSSeedData("37.187.27.180","37.187.27.180"));
+        vSeeds.push_back(CDNSSeedData("114.115.168.184","114.115.168.184"));
+        vSeeds.push_back(CDNSSeedData("20.214.136.163","20.214.136.163"));
+        vSeeds.push_back(CDNSSeedData("20.196.209.224","20.196.209.224"));
+        vSeeds.push_back(CDNSSeedData("125.168.95.217","125.168.95.217"));
+        vSeeds.push_back(CDNSSeedData("51.161.117.115","51.161.117.115"));
+        vSeeds.push_back(CDNSSeedData("5.135.136.12","5.135.136.12"));
+        vSeeds.push_back(CDNSSeedData("51.79.177.216","51.79.177.216"));
+        vSeeds.push_back(CDNSSeedData("20.249.22.70","20.249.22.70"));
+        vSeeds.push_back(CDNSSeedData("20.196.198.24","20.196.198.24"));
+        vSeeds.push_back(CDNSSeedData("20.211.47.141","20.211.47.141"));
+        vSeeds.push_back(CDNSSeedData("113.99.219.117","113.99.219.117"));
+        vSeeds.push_back(CDNSSeedData("14.237.93.189","14.237.93.189"));
+        vSeeds.push_back(CDNSSeedData("124.221.216.241","124.221.216.241"));
+        vSeeds.push_back(CDNSSeedData("114.122.105.11","114.122.105.11"));
+        vSeeds.push_back(CDNSSeedData("20.70.185.46","20.70.185.46"));
+        vSeeds.push_back(CDNSSeedData("222.186.138.213","222.186.138.213"));
+        vSeeds.push_back(CDNSSeedData("20.249.61.190","20.249.61.190"));
+        vSeeds.push_back(CDNSSeedData("14.173.217.63","14.173.217.63"));
+        vSeeds.push_back(CDNSSeedData("93.81.223.8","93.81.223.8"));
+        vSeeds.push_back(CDNSSeedData("222.140.172.35","222.140.172.35"));
+        vSeeds.push_back(CDNSSeedData("189.110.0.157","189.110.0.157"));
+        vSeeds.push_back(CDNSSeedData("116.235.53.234","116.235.53.234"));
+        vSeeds.push_back(CDNSSeedData("85.149.10.110","85.149.10.110"));
+        vSeeds.push_back(CDNSSeedData("123.56.98.82","123.56.98.82"));
+        vSeeds.push_back(CDNSSeedData("120.229.163.230","120.229.163.230"));
+        vSeeds.push_back(CDNSSeedData("150.158.140.229","150.158.140.229"));
+        vSeeds.push_back(CDNSSeedData("46.152.135.165","46.152.135.165"));
+        vSeeds.push_back(CDNSSeedData("93.126.95.110","93.126.95.110"));
+        vSeeds.push_back(CDNSSeedData("20.40.74.108","20.40.74.108"));
+        vSeeds.push_back(CDNSSeedData("49.235.162.153","49.235.162.153"));
+        vSeeds.push_back(CDNSSeedData("188.193.78.116","188.193.78.116"));
+        vSeeds.push_back(CDNSSeedData("20.213.126.80","20.213.126.80"));
+        vSeeds.push_back(CDNSSeedData("43.226.40.206","43.226.40.206"));
+        vSeeds.push_back(CDNSSeedData("43.226.39.110","43.226.39.110"));
+        vSeeds.push_back(CDNSSeedData("222.140.175.251","222.140.175.251"));
+
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 115);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 116);
